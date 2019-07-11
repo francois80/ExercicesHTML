@@ -7,13 +7,17 @@
 .TXTvert {color:green;}
 
 #TXTcentre {text-align: center;
-            font-weight: bold;
-          }
+  font-weight: bold;
+}
 
 .NewPolice {font-family: Arial}
 
 .FondBleu {background-color: blue}
 
-p.IMGfond {background-image: url("https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png")}
+.IMGfond {background-image: url("https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png")}
 
 .MargeLeft {margin-left: 10px}
+
+.FdBleuMarge {background-color: blue;
+  margin: 10px;
+}
