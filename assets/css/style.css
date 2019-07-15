@@ -8,6 +8,9 @@
   font-size: 16px;
   text-align: center;
 }
+  font-size: 16px;
+  text-align: center;
+}
 
 
 #TXTgras {font-weight: bold;}
@@ -22,14 +25,19 @@
   font-weight: bold;
 }
 
-.NewPolice {font-family: Arial}
+.NewPolice {font-family: Arial;}
 
-.FondBleu {background-color: blue}
+.fondBleu {background-color: blue;}
 
-.IMGfond {background-image: url("https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png")}
+.imgFond {
+  background-image: url("https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png");
+/* non répétition de l'image */
+  background-repeat: no-repeat;
+}
 
-.MargeLeft {margin-left: 10px}
+.margeLeft {margin: 10px;}
 
-.FdBleuMarge {background-color: blue;
+.FdBleuMarge {
+  background-color: blue;
   margin: 10px;
 }
